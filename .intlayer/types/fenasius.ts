@@ -1,0 +1,85 @@
+/* eslint-disable */
+export default {
+  "key": "fenasius",
+  "content": {
+    "nodeType": "translation",
+    "translation": {
+      "en": {
+        "btn1": "LOG IN",
+        "btn2": "SIGN UP",
+        "messages": "How can I help you, dear?",
+        "messages1": "Import a file",
+        "messages2": "Recent",
+        "messages3": "Quick",
+        "messages3other": "Quick replies",
+        "messages4": "Auto",
+        "messages4other": "Choose quick or expert",
+        "messages5": "Expert",
+        "messages5other": "Thinks deeply",
+        "messages6": "Heavy",
+        "messages6other": "Expert team",
+        "messages7": "FENASIUS PRO",
+        "messages7other": "Access extended capabilities",
+        "btn3": "SIGN UP",
+        "messages8": "By sending a message to Fenasius, you agree to our",
+        "messages82": "and our",
+        "messages8other": "Terms",
+        "messages9": "Privacy policy"
+      },
+      "fr": {
+        "btn1": "SE CONNECTER",
+        "btn2": "S'INSCRIRE",
+        "messages": "Comment puis-je vous aider très chère ?",
+        "messages1": "Importer un fichier",
+        "messages2": "Récent",
+        "messages3": "Rapide",
+        "messages3other": "Réponses rapides",
+        "messages4": "Auto",
+        "messages4other": "Choisit rapide ou expert",
+        "messages5": "Expert",
+        "messages5other": "Réfléchit intensément",
+        "messages6": "Heavy",
+        "messages6other": "Équipe d'experts",
+        "messages7": "FENASIUS PRO",
+        "messages7other": "Accédez aux capacités étendues",
+        "btn3": "S'INSCRIRE",
+        "messages8": "En envoyant un message à Fenasius, vous acceptez nos",
+        "messages82": "et notre",
+        "messages8other": "Conditions",
+        "messages9": "Politique de confidentialité"
+      },
+      "es": {},
+      "ja": {},
+      "ko": {},
+      "ru": {},
+      "hi": {},
+      "ar": {
+        "btn1": "تسجيل الدخول",
+        "btn2": "إنشاء حساب",
+        "messages": "كيف يمكنني مساعدتك عزيزتي؟",
+        "messages1": "استيراد ملف",
+        "messages2": "الأخير",
+        "messages3": "سريع",
+        "messages3other": "ردود سريعة",
+        "messages4": "تلقائي",
+        "messages4other": "اختاري سريع أو خبير",
+        "messages5": "خبير",
+        "messages5other": "تفكير معمّق",
+        "messages6": "ثقيل",
+        "messages6other": "فريق من الخبراء",
+        "messages7": "FENASIUS PRO",
+        "messages7other": "الوصول إلى القدرات الموسعة",
+        "btn3": "إنشاء حساب",
+        "messages8": "بإرسال رسالة إلى Fenasius، فإنك توافقين على",
+        "messages82": "و",
+        "messages8other": "الشروط",
+        "messages9": "سياسة الخصوصية"
+      },
+      "zh-Hans": {},
+      "zh-Hant": {}
+    }
+  },
+  "localIds": [
+    "fenasius::local::src/content/fenasius.content.ts"
+  ]
+} as const;

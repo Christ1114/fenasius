@@ -25,7 +25,7 @@
       "zh-Hant"
     ],
     "strictMode": "inclusive",
-    "defaultLocale": "en"
+    "defaultLocale": "fr"
   },
   "routing": {
     "mode": "prefix-no-default",
@@ -62,7 +62,7 @@
     ],
     "watch": true,
     "contentDir": [
-      "/home/christ-heaven/StudioProjects/fenasiusai"
+      "/home/christ-heaven/StudioProjects/fenasiusai/src/content"
     ],
     "moduleAugmentationDir": "/home/christ-heaven/StudioProjects/fenasiusai/.intlayer/types",
     "unmergedDictionariesDir": "/home/christ-heaven/StudioProjects/fenasiusai/.intlayer/unmerged_dictionary",
@@ -86,15 +86,15 @@
       "/**/*.content.jsx"
     ],
     "watchedFilesPatternWithPath": [
-      "/home/christ-heaven/StudioProjects/fenasiusai/**/*.content.ts",
-      "/home/christ-heaven/StudioProjects/fenasiusai/**/*.content.js",
-      "/home/christ-heaven/StudioProjects/fenasiusai/**/*.content.cjs",
-      "/home/christ-heaven/StudioProjects/fenasiusai/**/*.content.cjx",
-      "/home/christ-heaven/StudioProjects/fenasiusai/**/*.content.mjs",
-      "/home/christ-heaven/StudioProjects/fenasiusai/**/*.content.mjx",
-      "/home/christ-heaven/StudioProjects/fenasiusai/**/*.content.json",
-      "/home/christ-heaven/StudioProjects/fenasiusai/**/*.content.tsx",
-      "/home/christ-heaven/StudioProjects/fenasiusai/**/*.content.jsx"
+      "/home/christ-heaven/StudioProjects/fenasiusai/src/content/**/*.content.ts",
+      "/home/christ-heaven/StudioProjects/fenasiusai/src/content/**/*.content.js",
+      "/home/christ-heaven/StudioProjects/fenasiusai/src/content/**/*.content.cjs",
+      "/home/christ-heaven/StudioProjects/fenasiusai/src/content/**/*.content.cjx",
+      "/home/christ-heaven/StudioProjects/fenasiusai/src/content/**/*.content.mjs",
+      "/home/christ-heaven/StudioProjects/fenasiusai/src/content/**/*.content.mjx",
+      "/home/christ-heaven/StudioProjects/fenasiusai/src/content/**/*.content.json",
+      "/home/christ-heaven/StudioProjects/fenasiusai/src/content/**/*.content.tsx",
+      "/home/christ-heaven/StudioProjects/fenasiusai/src/content/**/*.content.jsx"
     ],
     "outputFilesPatternWithPath": "/home/christ-heaven/StudioProjects/fenasiusai/.intlayer/dictionary/**/*.json"
   },

@@ -1,33 +1,50 @@
+"use client";
+import { bebas_neue } from '@/fonts/font';
+import React from 'react';
+import Cardcomponent from '@/components/home/ui/cardComponent';
+import { useIntlayer } from "next-intlayer";
 
-import React from 'react'
-import Navbar from '../navbar';
 
 const SecondModuleHome = () => {
-  return (
-    <div className='h-screen  w-full flex flex-col items-center justify-center pb-2'>
-        <div className="relative overflow-hidden w-full mt-20">
-            <svg width="1300" height="1300" viewBox="0 0 450 450" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g opacity={0.1}>
-              <path d="M10 10 L10 100 L40 100 L40 60 L80 60 L80 40 L40 40 L40 20 L90 20 L90 10 Z" fill="purple" stroke="url(#paint1_linear_678_6490)"/>
-            <path d="M100 10 L100 100 L140 100 L140 80 L120 80 L120 60 L140 60 L140 40 L120 40 L120 20 L140 20 L140 10 Z" fill="purple" stroke="url(#paint1_linear_678_6490)"/>
-            <path d="M150 10 L150 100 L170 100 L170 40 L200 100 L220 100 L220 10 L200 10 L200 70 L170 10 Z" fill="purple" stroke="url(#paint1_linear_678_6490)"/>
-            <path d="M230 10 L250 100 L270 100 L290 10 L280 10 L270 40 L240 40 L230 10 L240 60 L260 60 L250 25 L240 60" fill="purple" stroke="url(#paint1_linear_678_6490)" />
-            <path d="M300 10 L330 10 L330 35 L310 35 L310 60 L330 60 L330 100 L300 100 L300 75 L320 75 L320 50 L300 50 Z" fill="purple" stroke="url(#paint1_linear_678_6490)"/>
-            <path d="M340 10 L370 10 L370 30 L360 30 L360 80 L370 80 L370 100 L340 100 L340 80 L350 80 L350 30 L340 30 Z" fill="purple" stroke="url(#paint1_linear_678_6490)"/>
-            <path d="M380 10 L380 80 L390 80 L390 100 L420 100 L420 10 L400 10 L400 80 L390 80 L390 10 Z" fill="purple" stroke="url(#paint1_linear_678_6490)"/>
-            <path d="M430 10 L460 10 L460 35 L440 35 L440 60 L460 60 L460 100 L430 100 L430 75 L450 75 L450 50 L430 50 Z" fill="purple" stroke="url(#paint1_linear_678_6490)"/>
-              </g>
-              <defs>
-              <linearGradient id="paint1_linear_678_6490" x1="748.377" y1="4.71338" x2="748.377" y2="211.959" gradientUnits="userSpaceOnUse"><stop stopColor="black"></stop><stop offset="1" stopColor="white" stopOpacity="0.2"></stop></linearGradient>
-              </defs>
-            </svg>
-             <div className="absolute flex itelms">
+  const {messages2,messages2other} = useIntlayer('page');
 
-             </div>
+  return (
+    <div className='min-h-screen w-full'>
+      <div className="relative flex items-center justify-center overflow-hidden w-full h-[200px]">
+        <svg width="1300" height="200" viewBox="0 0 900 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="grad" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+              <stop stopColor="purple"/>
+              <stop offset="1" stopColor="white" stopOpacity="0.2"/>
+            </linearGradient>
+          </defs>
+          <path d="M10 10 L10 110 L30 110 L30 70 L70 70 L70 52 L30 52 L30 28 L80 28 L80 10 Z" fill="url(#grad)" opacity={0.1}/>
+          <path d="M95 10 L95 110 L175 110 L175 92 L115 92 L115 68 L165 68 L165 50 L115 50 L115 28 L175 28 L175 10 Z" fill="url(#grad)" opacity={0.1}/>
+          <path d="M190 10 L190 110 L210 110 L210 45 L250 110 L270 110 L270 10 L250 10 L250 75 L210 10 Z" fill="url(#grad)" opacity={0.1}/>
+          <path d="M285 110 L315 10 L335 10 L365 110 L344 110 L330 65 L320 65 L306 110 Z M322 50 L328 50 L335 75 L315 75 Z" fill="url(#grad)" opacity={0.8}/>
+          <path d="M380 10 L440 10 L440 28 L400 28 L400 52 L440 52 L440 110 L380 110 L380 92 L420 92 L420 70 L380 70 Z" fill="url(#grad)" opacity={0.1}/>
+          <path d="M450 10 L490 10 L490 28 L480 28 L480 92 L490 92 L490 110 L450 110 L450 92 L460 92 L460 28 L450 28 Z" fill="url(#grad)" opacity={0.8}/>
+          <path d="M500 10 L500 85 Q500 110 525 110 L555 110 Q580 110 580 85 L580 10 L560 10 L560 85 Q560 92 540 92 Q520 92 520 85 L520 10 Z" fill="url(#grad)" opacity={0.1}/>
+          <path d="M595 10 L655 10 L655 28 L615 28 L615 52 L655 52 L655 110 L595 110 L595 92 L635 92 L635 70 L595 70 Z" fill="url(#grad)" opacity={0.1}/>
+        </svg>
+
+        <div className="absolute inset-0 flex flex-col justify-center w-full p-3 px-9">
+          <div className='flex flex-col gap-y-3'>
+            <h1 className={`${bebas_neue.className} text-zinc-200 text-start text-2xl font-bold underline underline-offset-4`}>
+              {messages2}
+            </h1>
+            <h1 className={`${bebas_neue.className} text-white text-5xl`}>
+              {messages2other}
+            </h1>
+          </div>
         </div>
-          
+      </div>
+      <div className="mt-10 w-full px-9">
+        <Cardcomponent/>
+      </div>
+
     </div>
-  )
-}
+  );
+};
 
 export default SecondModuleHome;

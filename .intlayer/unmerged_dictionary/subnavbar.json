@@ -1,0 +1,90 @@
+[
+  {
+    "key": "subnavbar",
+    "content": {
+      "pourtoutes": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "POUR TOUTES",
+          "en": "FOR ALL",
+          "ar": "للجميع"
+        }
+      },
+      "pourparticuliers": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "POUR PARTICULIERS",
+          "en": "FOR INDIVIDUALS",
+          "ar": "للأفراد"
+        }
+      },
+      "pourgouvernements": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "POUR GOUVERNEMENTS",
+          "en": "FOR GOVERNMENTS",
+          "ar": "للحكومات"
+        }
+      },
+      "fenecho": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "FENECHO",
+          "en": "FENECHO",
+          "ar": "فنشو"
+        }
+      },
+      "findmenstrualwipes": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "FIND MENSTRUAL WIPES",
+          "en": "FIND MENSTRUAL WIPES",
+          "ar": "مناديل الدورة الشهرية"
+        }
+      },
+      "ehealth": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "E-HEALTH",
+          "en": "E-HEALTH",
+          "ar": "الصحة الإلكترونية"
+        }
+      },
+      "ensavoirplus": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "EN SAVOIR PLUS +",
+          "en": "LEARN MORE +",
+          "ar": "معرفة المزيد +"
+        }
+      },
+      "impactsocial": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "IMPACT SOCIAL",
+          "en": "SOCIAL IMPACT",
+          "ar": "التأثير الاجتماعي"
+        }
+      },
+      "universitaire": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "UNIVERSITAIRE",
+          "en": "ACADEMIC",
+          "ar": "الأكاديمي"
+        }
+      },
+      "professionnel": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "PROFESSIONNEL",
+          "en": "PROFESSIONAL",
+          "ar": "المهني"
+        }
+      }
+    },
+    "localId": "subnavbar::local::src/content/subnavbar.content.ts",
+    "location": "local",
+    "filePath": "src/content/subnavbar.content.ts"
+  }
+]

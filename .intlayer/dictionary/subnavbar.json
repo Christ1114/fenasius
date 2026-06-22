@@ -1,0 +1,54 @@
+{
+  "key": "subnavbar",
+  "content": {
+    "nodeType": "translation",
+    "translation": {
+      "en": {
+        "pourtoutes": "FOR ALL",
+        "pourparticuliers": "FOR INDIVIDUALS",
+        "pourgouvernements": "FOR GOVERNMENTS",
+        "fenecho": "FENECHO",
+        "findmenstrualwipes": "FIND MENSTRUAL WIPES",
+        "ehealth": "E-HEALTH",
+        "ensavoirplus": "LEARN MORE +",
+        "impactsocial": "SOCIAL IMPACT",
+        "universitaire": "ACADEMIC",
+        "professionnel": "PROFESSIONAL"
+      },
+      "fr": {
+        "pourtoutes": "POUR TOUTES",
+        "pourparticuliers": "POUR PARTICULIERS",
+        "pourgouvernements": "POUR GOUVERNEMENTS",
+        "fenecho": "FENECHO",
+        "findmenstrualwipes": "FIND MENSTRUAL WIPES",
+        "ehealth": "E-HEALTH",
+        "ensavoirplus": "EN SAVOIR PLUS +",
+        "impactsocial": "IMPACT SOCIAL",
+        "universitaire": "UNIVERSITAIRE",
+        "professionnel": "PROFESSIONNEL"
+      },
+      "es": {},
+      "ja": {},
+      "ko": {},
+      "ru": {},
+      "hi": {},
+      "ar": {
+        "pourtoutes": "للجميع",
+        "pourparticuliers": "للأفراد",
+        "pourgouvernements": "للحكومات",
+        "fenecho": "فنشو",
+        "findmenstrualwipes": "مناديل الدورة الشهرية",
+        "ehealth": "الصحة الإلكترونية",
+        "ensavoirplus": "معرفة المزيد +",
+        "impactsocial": "التأثير الاجتماعي",
+        "universitaire": "الأكاديمي",
+        "professionnel": "المهني"
+      },
+      "zh-Hans": {},
+      "zh-Hant": {}
+    }
+  },
+  "localIds": [
+    "subnavbar::local::src/content/subnavbar.content.ts"
+  ]
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "key": "footer",
+    "content": {
+      "essayerfenasiussur": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Essayer FENASIUS sur :",
+          "en": "Try FENASIUS on :",
+          "ar": "جرب FENASIUS على :"
+        }
+      },
+      "web": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Web",
+          "en": "Web",
+          "ar": "web"
+        }
+      },
+      "ios": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "iOS",
+          "en": "iOS",
+          "ar": "iOS"
+        }
+      },
+      "android": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Android",
+          "en": "Android",
+          "ar": "Android"
+        }
+      },
+      "produits": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "PRODUITS",
+          "en": "PRODUCTS",
+          "ar": "منتجات"
+        }
+      },
+      "fenasius": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "FENASIUS",
+          "en": "FENASIUS",
+          "ar": "FENASIUS"
+        }
+      },
+      "pourtoutes": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "POUR TOUTES",
+          "en": "FOR ALL",
+          "ar": "للجميع"
+        }
+      },
+      "pourparticuliers": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "POUR PARTICULIERS",
+          "en": "FOR INDIVIDUALS",
+          "ar": "للأفراد"
+        }
+      },
+      "pourgouvernements": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "POUR GOUVERNEMENTS",
+          "en": "FOR GOVERNMENTS",
+          "ar": "للحكومات"
+        }
+      },
+      "ensavoirplus": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "EN SAVOIR PLUS +",
+          "en": "LEARN MORE +",
+          "ar": "معرفة المزيد +"
+        }
+      },
+      "companie": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "COMPAGNIE",
+          "en": "COMPANY",
+          "ar": "الشركة"
+        }
+      },
+      "entreprise": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "ENTREPRISE",
+          "en": "ENTERPRISE",
+          "ar": "الشركة"
+        }
+      },
+      "carreiere": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "CARRIÈRE",
+          "en": "CAREERS",
+          "ar": "الوظائف"
+        }
+      },
+      "contact": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "CONTACT",
+          "en": "CONTACT",
+          "ar": "الاتصال"
+        }
+      },
+      "actualites": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "ACTUALITÉS",
+          "en": "NEWS",
+          "ar": "الأخبار"
+        }
+      },
+      "politiquedeconfidentialite": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Politique de confidentialité",
+          "en": "Privacy Policy",
+          "ar": "سياسة الخصوصية"
+        }
+      },
+      "mentionslegales": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Mentions légales",
+          "en": "Legal Notice",
+          "ar": "إشعار قانوني"
+        }
+      },
+      "conditionsdusuage": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Conditions d'utilisation",
+          "en": "Terms of Use",
+          "ar": "شروط الاستخدام"
+        }
+      },
+      "securite": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Sécurité",
+          "en": "Security",
+          "ar": "الأمان"
+        }
+      },
+      "ressources": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "RESSOURCES",
+          "en": "RESOURCES",
+          "ar": "الموارد"
+        }
+      }
+    },
+    "localId": "footer::local::src/content/footer.content.ts",
+    "location": "local",
+    "filePath": "src/content/footer.content.ts"
+  }
+]

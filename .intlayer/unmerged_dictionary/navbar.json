@@ -1,0 +1,58 @@
+[
+  {
+    "key": "navbar",
+    "content": {
+      "fenasius": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "FENASIUS",
+          "en": "FENASIUS",
+          "ar": "FENASIUS"
+        }
+      },
+      "produits": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "PRODUITS",
+          "en": "PRODUCTS",
+          "ar": "منتجات"
+        }
+      },
+      "carriere": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "CARRIÈRE",
+          "en": "CAREERS",
+          "ar": "الوظائف"
+        }
+      },
+      "company": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "COMPAGNIE",
+          "en": "COMPANY",
+          "ar": "الشركة"
+        }
+      },
+      "actualites": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "ACTUALITÉS",
+          "en": "NEWS",
+          "ar": "الأخبار"
+        }
+      },
+      "achat": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "ACHAT",
+          "en": "SHOP",
+          "ar": "شراء"
+        }
+      }
+    },
+    "localId": "navbar::local::src/content/navbar.content.ts",
+    "location": "local",
+    "filePath": "src/content/navbar.content.ts"
+  }
+]

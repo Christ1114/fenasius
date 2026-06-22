@@ -3,9 +3,11 @@ import React from 'react';
 import {useState} from "react";
 import { ArrowUp } from 'lucide-react';
 import { montserrat } from '@/fonts/font';
-
+import { useIntlayer } from "next-intlayer";
 const Inputcomponents = () => {
+const {messages} = useIntlayer('page');
 const [inputValue, setInputValue]=useState('');
+const sentence = `${messages?.value ?? messages}  `;
 const handleInputChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     setInputValue(e.target.value);
 };
@@ -14,7 +16,7 @@ const handleInputChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
   <textarea
         value={inputValue}
         onChange={handleInputChange}
-        placeholder={"Comment puis-je vous aider très chère ?"}
+        placeholder={sentence}
         className={`bg-pink-600/10 backdrop-blur-xl rounded-lg p-5 w-190 h-30 pr-20 text-white font-bold focus:outline-none resize-none`}
         style={{
             borderRadius: "30px",

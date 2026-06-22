@@ -1,0 +1,170 @@
+[
+  {
+    "key": "fenasius",
+    "content": {
+      "btn1": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "SE CONNECTER",
+          "en": "LOG IN",
+          "ar": "تسجيل الدخول"
+        }
+      },
+      "btn2": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "S'INSCRIRE",
+          "en": "SIGN UP",
+          "ar": "إنشاء حساب"
+        }
+      },
+      "messages": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Comment puis-je vous aider très chère ?",
+          "en": "How can I help you, dear?",
+          "ar": "كيف يمكنني مساعدتك عزيزتي؟"
+        }
+      },
+      "messages1": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Importer un fichier",
+          "en": "Import a file",
+          "ar": "استيراد ملف"
+        }
+      },
+      "messages2": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Récent",
+          "en": "Recent",
+          "ar": "الأخير"
+        }
+      },
+      "messages3": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Rapide",
+          "en": "Quick",
+          "ar": "سريع"
+        }
+      },
+      "messages3other": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Réponses rapides",
+          "en": "Quick replies",
+          "ar": "ردود سريعة"
+        }
+      },
+      "messages4": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Auto",
+          "en": "Auto",
+          "ar": "تلقائي"
+        }
+      },
+      "messages4other": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Choisit rapide ou expert",
+          "en": "Choose quick or expert",
+          "ar": "اختاري سريع أو خبير"
+        }
+      },
+      "messages5": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Expert",
+          "en": "Expert",
+          "ar": "خبير"
+        }
+      },
+      "messages5other": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Réfléchit intensément",
+          "en": "Thinks deeply",
+          "ar": "تفكير معمّق"
+        }
+      },
+      "messages6": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Heavy",
+          "en": "Heavy",
+          "ar": "ثقيل"
+        }
+      },
+      "messages6other": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Équipe d'experts",
+          "en": "Expert team",
+          "ar": "فريق من الخبراء"
+        }
+      },
+      "messages7": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "FENASIUS PRO",
+          "en": "FENASIUS PRO",
+          "ar": "FENASIUS PRO"
+        }
+      },
+      "messages7other": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Accédez aux capacités étendues",
+          "en": "Access extended capabilities",
+          "ar": "الوصول إلى القدرات الموسعة"
+        }
+      },
+      "btn3": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "S'INSCRIRE",
+          "en": "SIGN UP",
+          "ar": "إنشاء حساب"
+        }
+      },
+      "messages8": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "En envoyant un message à Fenasius, vous acceptez nos",
+          "en": "By sending a message to Fenasius, you agree to our",
+          "ar": "بإرسال رسالة إلى Fenasius، فإنك توافقين على"
+        }
+      },
+      "messages82": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "et notre",
+          "en": "and our",
+          "ar": "و"
+        }
+      },
+      "messages8other": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Conditions",
+          "en": "Terms",
+          "ar": "الشروط"
+        }
+      },
+      "messages9": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Politique de confidentialité",
+          "en": "Privacy policy",
+          "ar": "سياسة الخصوصية"
+        }
+      }
+    },
+    "localId": "fenasius::local::src/content/fenasius.content.ts",
+    "location": "local",
+    "filePath": "src/content/fenasius.content.ts"
+  }
+]

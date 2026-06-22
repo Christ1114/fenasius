@@ -1,0 +1,18 @@
+[
+  {
+    "key": "btn",
+    "content": {
+      "essayerfenasius": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Essayer FENASIUS",
+          "en": "Try FENASIUS",
+          "ar": "جرب FENASIUS"
+        }
+      }
+    },
+    "localId": "btn::local::src/content/button.content.ts",
+    "location": "local",
+    "filePath": "src/content/button.content.ts"
+  }
+]

@@ -1,7 +1,8 @@
-import {Locales, type IntlayerConfig} from "intlayer";
-const config:IntlayerConfig = {
+import { Locales, type IntlayerConfig } from "intlayer";
+
+const config: IntlayerConfig = {
     internationalization: {
-        locales : [
+        locales: [
             Locales.ENGLISH,
             Locales.FRENCH,
             Locales.SPANISH,
@@ -13,7 +14,11 @@ const config:IntlayerConfig = {
             Locales.CHINESE_SIMPLIFIED,
             Locales.CHINESE_TRADITIONAL,
         ],
-        defaultLocale:Locales.ENGLISH,
-    }
-}
+        defaultLocale: Locales.FRENCH,
+    },
+    content: {
+        contentDir: ["src/content"],  
+    },
+};
+
 export default config;
