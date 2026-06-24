@@ -1,0 +1,42 @@
+[
+  {
+    "key": "fivecomponent",
+    "content": {
+      "featuresHeaderModels": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Models",
+          "en": "Models",
+          "ar": "النماذج"
+        }
+      },
+      "featuresHeaderIndividuals": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Particuliers",
+          "en": "Individuals",
+          "ar": "أفراد"
+        }
+      },
+      "featuresHeaderEnterprise": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Entreprises",
+          "en": "Enterprise",
+          "ar": "الشركات"
+        }
+      },
+      "featuresSectionSecurity": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Security & compliance",
+          "en": "Security & compliance",
+          "ar": "الأمان والامتثال"
+        }
+      }
+    },
+    "localId": "fivecomponent::local::src/content/business5.content.ts",
+    "location": "local",
+    "filePath": "src/content/business5.content.ts"
+  }
+]

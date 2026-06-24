@@ -1,0 +1,54 @@
+{
+  "key": "fourcomponent",
+  "content": {
+    "nodeType": "translation",
+    "translation": {
+      "en": {
+        "pricingTitle": "Pricing",
+        "individualsTitle": "Individuals",
+        "individualsDescription": "Designed for small to medium-sized teams collaborating with Fenasius to innovate.",
+        "individualsPrice": "16,875 CFA francs (XOF) /",
+        "individualsPeriod": "month",
+        "individualsCta": "Create a group",
+        "enterpriseTitle": "Enterprise",
+        "enterpriseDescription": "Ideal for large organizations using advanced features and custom solutions.",
+        "enterprisePrice": "Let's talk!",
+        "enterpriseCta": "Contact us"
+      },
+      "fr": {
+        "pricingTitle": "Prix",
+        "individualsTitle": "Particuliers",
+        "individualsDescription": "Conçu pour les équipes de petite taille à moyenne collaborant avec Fenasius afin d'innover.",
+        "individualsPrice": "16 875 francs CFA (XOF) /",
+        "individualsPeriod": "mois",
+        "individualsCta": "Créer un groupe",
+        "enterpriseTitle": "Entreprises",
+        "enterpriseDescription": "Idéal pour les grandes organisations utilisant des fonctionnalités avancées et des solutions personnalisées.",
+        "enterprisePrice": "Discutons en !",
+        "enterpriseCta": "Nous contacter"
+      },
+      "es": {},
+      "ja": {},
+      "ko": {},
+      "ru": {},
+      "hi": {},
+      "ar": {
+        "pricingTitle": "الأسعار",
+        "individualsTitle": "أفراد",
+        "individualsDescription": "مصمم للفرق الصغيرة والمتوسطة التي تتعاون مع Fenasius للابتكار.",
+        "individualsPrice": "16,875 فرنك CFA (XOF) /",
+        "individualsPeriod": "شهر",
+        "individualsCta": "إنشاء مجموعة",
+        "enterpriseTitle": "الشركات",
+        "enterpriseDescription": "مثالي للمؤسسات الكبيرة التي تستخدم ميزات متقدمة وحلول مخصصة.",
+        "enterprisePrice": "لنتحدث!",
+        "enterpriseCta": "اتصل بنا"
+      },
+      "zh-Hans": {},
+      "zh-Hant": {}
+    }
+  },
+  "localIds": [
+    "fourcomponent::local::src/content/business4.content.ts"
+  ]
+}

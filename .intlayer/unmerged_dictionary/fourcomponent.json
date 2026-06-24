@@ -1,0 +1,90 @@
+[
+  {
+    "key": "fourcomponent",
+    "content": {
+      "pricingTitle": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Prix",
+          "en": "Pricing",
+          "ar": "الأسعار"
+        }
+      },
+      "individualsTitle": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Particuliers",
+          "en": "Individuals",
+          "ar": "أفراد"
+        }
+      },
+      "individualsDescription": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Conçu pour les équipes de petite taille à moyenne collaborant avec Fenasius afin d'innover.",
+          "en": "Designed for small to medium-sized teams collaborating with Fenasius to innovate.",
+          "ar": "مصمم للفرق الصغيرة والمتوسطة التي تتعاون مع Fenasius للابتكار."
+        }
+      },
+      "individualsPrice": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "16 875 francs CFA (XOF) /",
+          "en": "16,875 CFA francs (XOF) /",
+          "ar": "16,875 فرنك CFA (XOF) /"
+        }
+      },
+      "individualsPeriod": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "mois",
+          "en": "month",
+          "ar": "شهر"
+        }
+      },
+      "individualsCta": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Créer un groupe",
+          "en": "Create a group",
+          "ar": "إنشاء مجموعة"
+        }
+      },
+      "enterpriseTitle": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Entreprises",
+          "en": "Enterprise",
+          "ar": "الشركات"
+        }
+      },
+      "enterpriseDescription": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Idéal pour les grandes organisations utilisant des fonctionnalités avancées et des solutions personnalisées.",
+          "en": "Ideal for large organizations using advanced features and custom solutions.",
+          "ar": "مثالي للمؤسسات الكبيرة التي تستخدم ميزات متقدمة وحلول مخصصة."
+        }
+      },
+      "enterprisePrice": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Discutons en !",
+          "en": "Let's talk!",
+          "ar": "لنتحدث!"
+        }
+      },
+      "enterpriseCta": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Nous contacter",
+          "en": "Contact us",
+          "ar": "اتصل بنا"
+        }
+      }
+    },
+    "localId": "fourcomponent::local::src/content/business4.content.ts",
+    "location": "local",
+    "filePath": "src/content/business4.content.ts"
+  }
+]

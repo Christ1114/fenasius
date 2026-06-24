@@ -1,0 +1,51 @@
+{
+  "key": "secondcomponent",
+  "content": {
+    "nodeType": "translation",
+    "translation": {
+      "en": {
+        "sectionLabel": "Feature",
+        "sectionTitle": "Enterprise-grade AI, ready to use",
+        "sectionDescription": "Secure data isolation, real-time knowledge across all your tools, and production-ready outputs for every team.",
+        "card1Title": "Secure enterprise vault",
+        "card1Description": "Your data is encrypted with your keys, under your control, and isolated from all other clients.",
+        "card2Title": "Real-time search and knowledge",
+        "card2Description": "Connect your external apps and let Fenasius AI seamlessly search across conversations, documents, and emails.",
+        "card3Title": "Presentations, spreadsheets and documents",
+        "card3Description": "You're not limited to a chat thread; Fenasius can produce a variety of outputs."
+      },
+      "fr": {
+        "sectionLabel": "Caractéristique",
+        "sectionTitle": "IA de qualité entreprise, prête à l'emploi",
+        "sectionDescription": "Isolation sécurisée des données, connaissances en temps réel sur tous vos outils, et des résultats prêts pour la production pour chaque équipe.",
+        "card1Title": "Coffre-fort d'entreprise sécurisé",
+        "card1Description": "Vos données sont chiffrées avec vos clés, sous votre contrôle, et isolées de tous les autres clients.",
+        "card2Title": "Recherche et connaissances en temps réel",
+        "card2Description": "Connectez vos applications externes et permettez à Fenasius AI de rechercher de manière transparente dans les conversations, les documents et les e-mails.",
+        "card3Title": "Présentations, feuilles de calcul et documents",
+        "card3Description": "Vous n'êtes pas limité à un fil de discussion ; Fenasius peut produire une variété de résultats."
+      },
+      "es": {},
+      "ja": {},
+      "ko": {},
+      "ru": {},
+      "hi": {},
+      "ar": {
+        "sectionLabel": "ميزة",
+        "sectionTitle": "ذكاء اصطناعي بجودة المؤسسات، جاهز للاستخدام",
+        "sectionDescription": "عزل آمن للبيانات، معرفة في الوقت الفعلي عبر جميع أدواتك، ومخرجات جاهزة للإنتاج لكل فريق.",
+        "card1Title": "خزنة مؤسسية آمنة",
+        "card1Description": "بياناتك مشفرة بمفاتيحك، تحت تحكمك، ومعزولة عن جميع العملاء الآخرين.",
+        "card2Title": "بحث ومعرفة في الوقت الفعلي",
+        "card2Description": "اربط تطبيقاتك الخارجية ودع Fenasius AI يبحث بسلاسة عبر المحادثات والمستندات ورسائل البريد الإلكتروني.",
+        "card3Title": "عروض تقديمية وجداول بيانات ومستندات",
+        "card3Description": "لست مقيداً بسلسلة محادثة؛ يمكن لـ Fenasius إنتاج مجموعة متنوعة من المخرجات."
+      },
+      "zh-Hans": {},
+      "zh-Hant": {}
+    }
+  },
+  "localIds": [
+    "secondcomponent::local::src/content/business2.content.ts"
+  ]
+}

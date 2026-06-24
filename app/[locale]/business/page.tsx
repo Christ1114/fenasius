@@ -1,4 +1,10 @@
 import FirstcomponentPage from '@/components/business/first.component';
+import Fivecomponent from '@/components/business/five.component';
+import Fourcomponent from '@/components/business/four.component';
+import Lastcomponent from '@/components/business/last.component';
+import Secondcomponent from '@/components/business/second.component';
+import Thirdcomponent from '@/components/business/third.component';
+import FooterPage from '@/components/shared/footer';
 import NavbarPage from '@/components/shared/navbar/navbar';
 import React from 'react';
 
@@ -12,7 +18,15 @@ const BusinessPage = () => {
         </header>
         <main className="relative flex flex-col items-center w-full h-full">
           <FirstcomponentPage/>
+          <Secondcomponent/>
+          <Thirdcomponent/>
+          <Fourcomponent/>
+          <Fivecomponent/>
+          <Lastcomponent />
         </main>
+        <footer className="w-full h-full">
+            <FooterPage/>
+          </footer>
     </div>
   )
 }

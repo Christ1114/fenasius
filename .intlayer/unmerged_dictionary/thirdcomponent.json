@@ -1,0 +1,394 @@
+[
+  {
+    "key": "thirdcomponent",
+    "content": {
+      "scrollHere": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Scrollez ici",
+          "en": "Scroll here",
+          "ar": "مرر هنا"
+        }
+      },
+      "syncing": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Connexion en cours",
+          "en": "Syncing...",
+          "ar": "جاري المزامنة..."
+        }
+      },
+      "encryptionActive": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Chiffrement activé...",
+          "en": "Encryption active...",
+          "ar": "التشفير نشط..."
+        }
+      },
+      "analyzing": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Analyse en cours...",
+          "en": "Analyzing...",
+          "ar": "جاري التحليل..."
+        }
+      },
+      "generating": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Génération en cours...",
+          "en": "Generating...",
+          "ar": "جاري التوليد..."
+        }
+      },
+      "demoSyncPrompt": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Synchronise mes données patientes avec Fenasius AI",
+          "en": "Sync my patient data with Fenasius AI",
+          "ar": "مزامنة بيانات مرضاي مع Fenasius AI"
+        }
+      },
+      "demoVaultPrompt": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Initialise le coffre-fort sécurisé pour mon organisation",
+          "en": "Initialize secure vault for my organization",
+          "ar": "تهيئة الخزنة الآمنة لمؤسستي"
+        }
+      },
+      "demoSearchPrompt": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Recherche dans mes documents et e-mails récents",
+          "en": "Search my recent documents and emails",
+          "ar": "البحث في مستنداتي ورسائلي الإلكترونية الأخيرة"
+        }
+      },
+      "demoOutputPrompt": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Génère un rapport menstruel en PDF pour mes patientes",
+          "en": "Generate a menstrual report PDF for my patients",
+          "ar": "إنشاء تقرير دورة شهرية PDF لمريضاتي"
+        }
+      },
+      "vaultEncryption": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Chiffrement",
+          "en": "Encryption",
+          "ar": "التشفير"
+        }
+      },
+      "vaultEncryptionValue": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "AES-256-GCM",
+          "en": "AES-256-GCM",
+          "ar": "AES-256-GCM"
+        }
+      },
+      "vaultKeys": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Clés gérées par",
+          "en": "Keys managed by",
+          "ar": "المفاتيح المدارة من قبل"
+        }
+      },
+      "vaultKeysValue": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Vous",
+          "en": "You",
+          "ar": "أنت"
+        }
+      },
+      "vaultIsolation": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Isolation",
+          "en": "Isolation",
+          "ar": "العزل"
+        }
+      },
+      "vaultIsolationValue": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Active",
+          "en": "Active",
+          "ar": "نشط"
+        }
+      },
+      "vaultAccess": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Accès Fenasius",
+          "en": "Fenasius Access",
+          "ar": "وصول Fenasius"
+        }
+      },
+      "vaultAccessValue": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Aucun",
+          "en": "None",
+          "ar": "لا يوجد"
+        }
+      },
+      "searchItem1Name": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Rapport_santé_Q2.pdf",
+          "en": "Health_report_Q2.pdf",
+          "ar": "تقرير_صحي_الربع2.pdf"
+        }
+      },
+      "searchItem1Result": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "3 résultats",
+          "en": "3 results",
+          "ar": "3 نتائج"
+        }
+      },
+      "searchItem2Name": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Email: Dr. Koné 12 juin",
+          "en": "Email: Dr. Koné June 12",
+          "ar": "بريد: د. كوني 12 يونيو"
+        }
+      },
+      "searchItem2Result": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "2 résultats",
+          "en": "2 results",
+          "ar": "2 نتائج"
+        }
+      },
+      "searchItem3Name": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Notes_consultation.docx",
+          "en": "Consultation_notes.docx",
+          "ar": "ملاحظات_الاستشارة.docx"
+        }
+      },
+      "searchItem3Result": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "5 résultats",
+          "en": "5 results",
+          "ar": "5 نتائج"
+        }
+      },
+      "outputItem1": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Présentation PowerPoint",
+          "en": "PowerPoint Presentation",
+          "ar": "عرض PowerPoint"
+        }
+      },
+      "outputItem2": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Rapport PDF",
+          "en": "PDF Report",
+          "ar": "تقرير PDF"
+        }
+      },
+      "outputItem3": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Tableau Excel",
+          "en": "Excel Spreadsheet",
+          "ar": "جدول Excel"
+        }
+      },
+      "outputItem4": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "E-mail résumé",
+          "en": "Summary Email",
+          "ar": "بريد ملخص"
+        }
+      },
+      "outputStatus": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Prêt",
+          "en": "Ready",
+          "ar": "جاهز"
+        }
+      },
+      "card1Title": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Connectez vos outils",
+          "en": "Connect your tools",
+          "ar": "اربط أدواتك"
+        }
+      },
+      "card1Description": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Utilisez les connecteurs pour intégrer vos outils, automatiser vos flux de travail et rendre votre environnement de travail plus efficace.",
+          "en": "Use connectors to integrate your tools, automate your workflows and make your work environment more efficient.",
+          "ar": "استخدم الموصلات لدمج أدواتك، وأتمتة سير العمل وجعل بيئة عملك أكثر كفاءة."
+        }
+      },
+      "card1Item1": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Salesforce, HubSpot, Slack, Notion, et bien plus",
+          "en": "Salesforce, HubSpot, Slack, Notion, and more",
+          "ar": "Salesforce، HubSpot، Slack، Notion، والمزيد"
+        }
+      },
+      "card1Item2": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Lisez et mettez à jour les enregistrements de bout en bout",
+          "en": "Read and update records end-to-end",
+          "ar": "قراءة وتحديث السجلات من البداية إلى النهاية"
+        }
+      },
+      "card1Item3": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Apportez votre propre serveur MCP",
+          "en": "Bring your own MCP server",
+          "ar": "أحضر خادم MCP الخاص بك"
+        }
+      },
+      "card2Title": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Coffre-fort d'entreprise sécurisé",
+          "en": "Secure enterprise vault",
+          "ar": "خزنة مؤسسية آمنة"
+        }
+      },
+      "card2Description": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Vos données sont chiffrées avec vos clés, sous votre contrôle, et isolées de tous les autres clients.",
+          "en": "Your data is encrypted with your keys, under your control, and isolated from all other clients.",
+          "ar": "بياناتك مشفرة بمفاتيحك، تحت تحكمك، ومعزولة عن جميع العملاء الآخرين."
+        }
+      },
+      "card2Item1": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Chiffrement AES-256-GCM de bout en bout",
+          "en": "End-to-end AES-256-GCM encryption",
+          "ar": "تشفير AES-256-GCM من البداية إلى النهاية"
+        }
+      },
+      "card2Item2": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Clés gérées exclusivement par vous",
+          "en": "Keys managed exclusively by you",
+          "ar": "المفاتيح المدارة حصرياً من قبلك"
+        }
+      },
+      "card2Item3": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Isolation complète entre clients",
+          "en": "Complete isolation between clients",
+          "ar": "عزل كامل بين العملاء"
+        }
+      },
+      "card3Title": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Recherche et connaissances en temps réel",
+          "en": "Real-time search and knowledge",
+          "ar": "بحث ومعرفة في الوقت الفعلي"
+        }
+      },
+      "card3Description": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Connectez vos applications externes et permettez à Fenasius AI de rechercher dans les conversations, documents et e-mails.",
+          "en": "Connect your external apps and let Fenasius AI search across conversations, documents, and emails.",
+          "ar": "اربط تطبيقاتك الخارجية ودع Fenasius AI يبحث عبر المحادثات والمستندات ورسائل البريد الإلكتروني."
+        }
+      },
+      "card3Item1": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Recherche unifiée dans tous vos documents",
+          "en": "Unified search across all your documents",
+          "ar": "بحث موحد عبر جميع مستنداتك"
+        }
+      },
+      "card3Item2": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Analyse des e-mails et conversations",
+          "en": "Email and conversation analysis",
+          "ar": "تحليل رسائل البريد الإلكتروني والمحادثات"
+        }
+      },
+      "card3Item3": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Résultats en temps réel",
+          "en": "Real-time results",
+          "ar": "نتائج في الوقت الفعلي"
+        }
+      },
+      "card4Title": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Vous n'êtes pas limité à un fil de discussion",
+          "en": "You're not limited to a chat thread",
+          "ar": "لست مقيداً بسلسلة محادثة"
+        }
+      },
+      "card4Description": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Fenasius peut produire une variété de résultats adaptés à vos besoins professionnels.",
+          "en": "Fenasius can produce a variety of outputs tailored to your professional needs.",
+          "ar": "يمكن لـ Fenasius إنتاج مجموعة متنوعة من المخرجات المصممة لاحتياجاتك المهنية."
+        }
+      },
+      "card4Item1": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Présentations, feuilles de calcul et documents",
+          "en": "Presentations, spreadsheets and documents",
+          "ar": "عروض تقديمية وجداول بيانات ومستندات"
+        }
+      },
+      "card4Item2": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Rapports PDF et e-mails automatisés",
+          "en": "PDF reports and automated emails",
+          "ar": "تقارير PDF ورسائل بريد إلكتروني آلية"
+        }
+      },
+      "card4Item3": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Tableaux de bord et visualisations",
+          "en": "Dashboards and visualizations",
+          "ar": "لوحات معلومات ورسوم بيانية"
+        }
+      }
+    },
+    "localId": "thirdcomponent::local::src/content/business3.content.ts",
+    "location": "local",
+    "filePath": "src/content/business3.content.ts"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "key": "secondcomponent",
+    "content": {
+      "sectionLabel": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Caractéristique",
+          "en": "Feature",
+          "ar": "ميزة"
+        }
+      },
+      "sectionTitle": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "IA de qualité entreprise, prête à l'emploi",
+          "en": "Enterprise-grade AI, ready to use",
+          "ar": "ذكاء اصطناعي بجودة المؤسسات، جاهز للاستخدام"
+        }
+      },
+      "sectionDescription": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Isolation sécurisée des données, connaissances en temps réel sur tous vos outils, et des résultats prêts pour la production pour chaque équipe.",
+          "en": "Secure data isolation, real-time knowledge across all your tools, and production-ready outputs for every team.",
+          "ar": "عزل آمن للبيانات، معرفة في الوقت الفعلي عبر جميع أدواتك، ومخرجات جاهزة للإنتاج لكل فريق."
+        }
+      },
+      "card1Title": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Coffre-fort d'entreprise sécurisé",
+          "en": "Secure enterprise vault",
+          "ar": "خزنة مؤسسية آمنة"
+        }
+      },
+      "card1Description": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Vos données sont chiffrées avec vos clés, sous votre contrôle, et isolées de tous les autres clients.",
+          "en": "Your data is encrypted with your keys, under your control, and isolated from all other clients.",
+          "ar": "بياناتك مشفرة بمفاتيحك، تحت تحكمك، ومعزولة عن جميع العملاء الآخرين."
+        }
+      },
+      "card2Title": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Recherche et connaissances en temps réel",
+          "en": "Real-time search and knowledge",
+          "ar": "بحث ومعرفة في الوقت الفعلي"
+        }
+      },
+      "card2Description": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Connectez vos applications externes et permettez à Fenasius AI de rechercher de manière transparente dans les conversations, les documents et les e-mails.",
+          "en": "Connect your external apps and let Fenasius AI seamlessly search across conversations, documents, and emails.",
+          "ar": "اربط تطبيقاتك الخارجية ودع Fenasius AI يبحث بسلاسة عبر المحادثات والمستندات ورسائل البريد الإلكتروني."
+        }
+      },
+      "card3Title": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Présentations, feuilles de calcul et documents",
+          "en": "Presentations, spreadsheets and documents",
+          "ar": "عروض تقديمية وجداول بيانات ومستندات"
+        }
+      },
+      "card3Description": {
+        "nodeType": "translation",
+        "translation": {
+          "fr": "Vous n'êtes pas limité à un fil de discussion ; Fenasius peut produire une variété de résultats.",
+          "en": "You're not limited to a chat thread; Fenasius can produce a variety of outputs.",
+          "ar": "لست مقيداً بسلسلة محادثة؛ يمكن لـ Fenasius إنتاج مجموعة متنوعة من المخرجات."
+        }
+      }
+    },
+    "localId": "secondcomponent::local::src/content/business2.content.ts",
+    "location": "local",
+    "filePath": "src/content/business2.content.ts"
+  }
+]

@@ -1,60 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-
-const conversations = [
-  [
-    {
-      role: "user",
-      text: "Ma patiente de 34 ans présente des cycles irréguliers. Que faire ?",
-    },
-    {
-      role: "ai",
-      text: "Bilan recommandé : dosage FSH, LH, AMH et prolactine entre J2 et J5 du cycle. Je peux générer l'ordonnance.",
-      pills: ["Générer ordonnance", "Voir protocole", "Études récentes"],
-    },
-    { role: "user", text: "Génère l'ordonnance." },
-    {
-      role: "ai",
-      text: "Ordonnance créée pour Mme Edith  Bilan hormonal J2–J5. Référence: FEN-2026-0622. Prête à imprimer.",
-      pills: ["Imprimer", "Ajouter au dossier"],
-    },
-  ],
-  [
-    {
-      role: "user",
-      text: "J'observe une formation hypoéchogène à gauche.",
-    },
-    {
-      role: "ai",
-      text: "Formation hypoéchogène ovarienne gauche : diagnostic différentiel kyste fonctionnel, endométriome, ou tératome. Taille et contours ?",
-      pills: ["Critères IOTA", "Comparer images"],
-    },
-    { role: "user", text: "30mm, contours réguliers, contenu homogène." },
-    {
-      role: "ai",
-      text: "Profil compatible avec un kyste fonctionnel. Contrôle échographique à J1 du cycle suivant recommandé. Probabilité maligne faible selon score IOTA simple.",
-      pills: ["Planifier suivi", "Rapport complet"],
-    },
-  ],
-  [
-    {
-      role: "user",
-      text: "Les dernières recommandations sur l'endométriose stade III ?",
-    },
-    {
-      role: "ai",
-      text: "Selon HAS 2024 et ESHRE 2023 : prise en charge multimodale privilégiée progestatifs en 1ère ligne, coelioscopie si échec médical.",
-      pills: ["HAS 2024", "ESHRE Guidelines", "Schémas thérapeutiques"],
-    },
-    { role: "user", text: "Quelle molécule en première intention ?" },
-    {
-      role: "ai",
-      text: "Diénogest 2mg/j (Visanne®)  efficacité démontrée sur douleurs et lésions, bien toléré en long terme. Alternative : progestérone micronisée 200mg.",
-      pills: ["Contre-indications", "Alternatives"],
-    },
-  ],
-];
+import { useIntlayer } from "next-intlayer";
 
 type Message = {
   role: string;
@@ -69,6 +16,57 @@ function sleep(ms: number) {
 }
 
 export default function FenasiusChatDemo() {
+  const content = useIntlayer('firstcomponent');
+
+  const chatUser1 = content.chatUser1.value;
+  const chatAi1 = content.chatAi1.value;
+  const chatPill1 = content.chatPill1.value;
+  const chatPill2 = content.chatPill2.value;
+  const chatPill3 = content.chatPill3.value;
+  const chatUser2 = content.chatUser2.value;
+  const chatAi2 = content.chatAi2.value;
+  const chatPill4 = content.chatPill4.value;
+  const chatPill5 = content.chatPill5.value;
+  const chatUser3 = content.chatUser3.value;
+  const chatAi3 = content.chatAi3.value;
+  const chatPill6 = content.chatPill6.value;
+  const chatPill7 = content.chatPill7.value;
+  const chatUser4 = content.chatUser4.value;
+  const chatAi4 = content.chatAi4.value;
+  const chatPill8 = content.chatPill8.value;
+  const chatPill9 = content.chatPill9.value;
+  const chatUser5 = content.chatUser5.value;
+  const chatAi5 = content.chatAi5.value;
+  const chatPill10 = content.chatPill10.value;
+  const chatPill11 = content.chatPill11.value;
+  const chatPill12 = content.chatPill12.value;
+  const chatUser6 = content.chatUser6.value;
+  const chatAi6 = content.chatAi6.value;
+  const chatPill13 = content.chatPill13.value;
+  const chatPill14 = content.chatPill14.value;
+  const chatModeFast = content.chatModeFast.value;
+
+  const conversations = [
+    [
+      { role: "user", text: chatUser1 },
+      { role: "ai", text: chatAi1, pills: [chatPill1, chatPill2, chatPill3] },
+      { role: "user", text: chatUser2 },
+      { role: "ai", text: chatAi2, pills: [chatPill4, chatPill5] },
+    ],
+    [
+      { role: "user", text: chatUser3 },
+      { role: "ai", text: chatAi3, pills: [chatPill6, chatPill7] },
+      { role: "user", text: chatUser4 },
+      { role: "ai", text: chatAi4, pills: [chatPill8, chatPill9] },
+    ],
+    [
+      { role: "user", text: chatUser5 },
+      { role: "ai", text: chatAi5, pills: [chatPill10, chatPill11, chatPill12] },
+      { role: "user", text: chatUser6 },
+      { role: "ai", text: chatAi6, pills: [chatPill13, chatPill14] },
+    ],
+  ];
+
   const bodyRef = useRef<HTMLDivElement>(null);
   const inputTextRef = useRef<HTMLSpanElement>(null);
   const cursorRef = useRef<HTMLSpanElement>(null);
@@ -170,7 +168,6 @@ export default function FenasiusChatDemo() {
         await addMsg(msg);
         await sleep(600);
 
-        // Indicateur "IA écrit..."
         const typing = document.createElement("div");
         typing.className = "fc-msg ai";
         typing.innerHTML = `<div class="fc-bubble fc-typing"><span></span><span></span><span></span></div>`;
@@ -235,7 +232,7 @@ export default function FenasiusChatDemo() {
         </div>
 
         <button className="fc-mode-selector" aria-label="Mode">
-          <span>Rapide</span>
+          <span>{chatModeFast}</span>
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
             <polyline points="6 9 12 15 18 9"/>
           </svg>
@@ -297,13 +294,13 @@ export default function FenasiusChatDemo() {
           line-height: 1.5;
         }
         .fc-msg.ai .fc-bubble {
-          background: #101828;
+          background: #1c1917;
           color: #ffffff;
           border: 0.5px solid rgba(255,255,255,0.06);
           border-radius: 4px 16px 16px 16px;
         }
         .fc-msg.user .fc-bubble {
-          background: #101828;
+          background: #1c1917;
           color: #ffffff;
           border-radius: 16px 4px 16px 16px;
         }
@@ -324,12 +321,12 @@ export default function FenasiusChatDemo() {
         }
         .fc-pill {
           display: inline-flex; align-items: center; gap: 5px;
-          background: #4d0218;
+          background: #1c1917;
           padding: 4px 10px;
           font-size: 11.5px;
           color: #ffffff;
           border-radius: 20px;
-          border: 0.5px solid #4d0218;
+          border: 0.5px solid #9ca3af;
           margin-top: 6px; margin-right: 4px;
         }
         .fc-footer {
@@ -342,7 +339,7 @@ export default function FenasiusChatDemo() {
         }
         .fc-plus {
           width: 34px; height: 34px; border-radius: 50%;
-          background: #101828;
+          background: #1c1917;
           border: 0.5px solid rgba(255,255,255,0.08);
           cursor: pointer; flex-shrink: 0;
           display: flex; align-items: center; justify-content: center;
@@ -352,7 +349,7 @@ export default function FenasiusChatDemo() {
         .fc-plus:hover { background: #1e2a3a; color: #ffffff; }
         .fc-input-fake {
           flex: 1; height: 36px; border-radius: 20px;
-          background: #101828;
+          background: #1c1917;
           border: 0.5px solid rgba(255,255,255,0.06);
           display: flex; align-items: center;
           padding: 0 14px;
@@ -369,7 +366,7 @@ export default function FenasiusChatDemo() {
         }
         .fc-mic {
           width: 34px; height: 34px; border-radius: 50%;
-          background: #101828;
+          background: #1c1917;
           border: 0.5px solid rgba(255,255,255,0.08);
           cursor: pointer; flex-shrink: 0;
           display: flex; align-items: center; justify-content: center;
