@@ -1,36 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This repository has been made public solely to provide MEST with verifiable evidence of the work described in my application. Due to confidentiality agreements with partners, certain details, code, and assets are restricted or withheld. This repository may be set back to private after the evaluation period.<img width="1364" height="571" alt="fena8" src="https://github.com/user-attachments/assets/e34404e1-2343-4c76-97da-05141cea063a" />
+<img width="1366" height="549" alt="fena7" src="https://github.com/user-attachments/assets/5437e038-eef0-428a-af32-03f7d23cbc6b" />
+<img width="1366" height="573" alt="fena5" src="https://github.com/user-attachments/assets/129aaba9-7d62-4c89-94a3-271cfd490823" />
+<img width="1366" height="583" alt="fena4" src="https://github.com/user-attachments/assets/b25c5544-92cf-4d0a-aad3-5f009978ccdb" />
+<img width="1351" height="585" alt="fena1" src="https://github.com/user-attachments/assets/b65b8537-e26b-499a-bc0f-a153c345a5e7" />
+<img width="1366" height="569" alt="fena" src="https://github.com/user-attachments/assets/773b91b6-4481-4e81-a4a0-0a12224a8d21" />
